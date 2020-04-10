@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">MySampahin</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_drop_point">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="account">Account</string>
+    <string name="dummy_text_medium">eveniet facere illo inventore magni maiores </string>
+    <string name="total_point">Total Point</string>
+    <string name="point_dummy">50.000</string>
+    <string name="drop_point">Drop Point</string>
+    <string name="tukar_poin_anda">Tukar Poin Anda</string>
+    <string name="promo">Promo</string>
+    <string name="promo_dummy">Tukar Poinmu untuk mendapatkan pulsa</string>
+    <string name="dummy_promo">50.000</string>
+    <string name="see_more">See More</string>
+    <string name="riwayat">Riwayat</string>
+    <string name="riwayat_home_layout">Membuang Sampah Plastik</string>
+    <string name="waktu_history_dummy">Hari Ini 12:00 AM</string>
+    <string name="point_dummy_riwayat">+50 point</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="username_account">Username_Account</string>
+    <string name="alamat_dummy">Jl. Diatas Bumi No.49</string>
+    <string name="alamat">Alamat</string>
+    <string name="nama">Nama</string>
+    <string name="jan">Jan</string>
+    <string name="jun">Jun</string>
+    <string name="may">May</string>
+    <string name="apr">Apr</string>
+    <string name="mar">Mar</string>
+    <string name="feb">Feb</string>
+    <string name="jul">Jul</string>
+    <string name="agt">Agt</string>
+    <string name="dec">Dec</string>
+    <string name="nov">Nov</string>
+    <string name="oct">Oct</string>
+    <string name="sep">Sep</string>
+    <string name="populer">Populer</string>
+    <string name="pulsa_telkomsel">Pulsa Telkomsel</string>
+    <string name="_10_point">10 point</string>
+    <string name="voucher_listrik">Voucher Listrik</string>
+    <string name="_20_point">20 point</string>
+    <string name="totebag">Totebag</string>
+    <string name="popular">Popular</string>
+    <string name="kevin">Kevin</string>
+    <string name="dummy_tanggal">09</string>
+    <string name="activitas_yang_dilakuakan">Activitas Yang Dilakuakan</string>
+    <string name="aug">AUG</string>
+    <string name="new_sep">SEP</string>
+
+    <string name="slide_1_title">KULINER</string>
+    <string name="slide_1_desc">Rasakan Berbagai Kuliner yang Akan Memanjakan Lidahmu</string>
+
+    <string name="slide_2_title">HOTEL</string>
+    <string name="slide_2_desc">Temukan Hotel yang Nyaman Untuk Istirahat Perjalananmu</string>
+
+    <string name="slide_3_title">WISATA</string>
+    <string name="slide_3_desc">Destinasi Menarik Menantimu. Segera Pilih Destinasi Wisatamu</string>
+
+    <string name="slide_4_title">GUIDE</string>
+    <string name="slide_4_desc">Cari Guide Untuk Menemani Perjalananmu Agar  semakin asyik </string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="start">Start</string>
+    <string name="losing_point">-50 point</string>
+    <string name="pendapatan_point">Pendapatan Point</string>
+    <string name="desc_satu">Anda dapat mengunjungi drop point / tempat sampah terdekat untuk membuang sampah</string>
+    <string name="desc_dua">Tempat sampah tersedia QR code agar dapat terhubung dengan akun lalu membuang sampah</string>
+    <string name="desc_ketigga">Setiap sampah yang anda buang akan bernilai poin sesuai jenisnya masing-masing</string>
+    <string name="point">Point</string>
+
+
+</resources>

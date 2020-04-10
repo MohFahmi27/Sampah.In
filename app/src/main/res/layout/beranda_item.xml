@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/shadow_layout"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/btndrop_point"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/circle_button"
+        android:elevation="2dp"
+        android:src="@drawable/ic_location_on_black_24dp"
+        app:layout_constraintEnd_toStartOf="@+id/btntukar_point"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnhistory"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/circle_button"
+        android:elevation="2dp"
+        android:src="@drawable/ic_history_black_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btntukar_point"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btntukar_point"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/circle_button"
+        android:elevation="2dp"
+        android:src="@drawable/ic_attach_money_black_24dp"
+        app:layout_constraintEnd_toStartOf="@+id/btnhistory"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btndrop_point"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        style="@style/tvCustom"
+        android:layout_marginTop="8dp"
+        android:text="@string/drop_point"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/btndrop_point"
+        app:layout_constraintStart_toStartOf="@+id/btndrop_point"
+        app:layout_constraintTop_toBottomOf="@+id/btndrop_point" />
+
+    <TextView
+        style="@style/tvCustom"
+        android:layout_width="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/tukar_poin_anda"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btntukar_point"
+        app:layout_constraintStart_toStartOf="@+id/btntukar_point"
+        app:layout_constraintTop_toBottomOf="@+id/btntukar_point" />
+
+    <TextView
+        style="@style/tvCustom"
+        android:layout_marginTop="8dp"
+        android:text="@string/riwayat"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnhistory"
+        app:layout_constraintStart_toStartOf="@+id/btnhistory"
+        app:layout_constraintTop_toBottomOf="@+id/btnhistory" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

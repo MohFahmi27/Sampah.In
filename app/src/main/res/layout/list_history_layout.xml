@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FAFAFA"
+    >
+
+    <TextView
+        android:id="@+id/tv_tanggal_history"
+        style="@style/tvCustom"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/dummy_tanggal"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="328dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/shadow_layout"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_tanggal_history"
+        app:layout_constraintStart_toEndOf="@+id/tv_tanggal_history"
+        app:layout_constraintTop_toTopOf="@+id/tv_tanggal_history"
+        app:layout_constraintVertical_bias="0.227">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_history"
+            android:layout_width="40dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_launcher_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tv_history_tittle"
+            style="@style/tvCustom"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/activitas_yang_dilakuakan"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/img_history"
+            app:layout_constraintStart_toEndOf="@id/img_history"
+            app:layout_constraintTop_toTopOf="@+id/img_history"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/tv_waktu"
+            style="@style/tvCustom"
+            android:text="@string/waktu_history_dummy"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_history"
+            app:layout_constraintStart_toStartOf="@+id/tv_history_tittle"
+            app:layout_constraintTop_toBottomOf="@+id/tv_history_tittle" />
+
+        <TextView
+            style="@style/tvCustom"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/colorFirst"
+            android:padding="3dp"
+            android:text="@string/point_dummy_riwayat"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_waktu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toEndOf="@id/tv_history_tittle"
+            app:layout_constraintTop_toTopOf="@+id/tv_history_tittle" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

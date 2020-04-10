@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/shadow_layout"
+    android:layout_height="wrap_content"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="46dp"
+        android:layout_height="41dp"
+        android:elevation="1dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:src="@drawable/triangular_arrow" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/riwayat_home_layout"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/waktu_history_dummy"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+    <TextView
+        style="@style/tvCustom"
+        android:text="@string/point_dummy_riwayat"
+        android:background="@color/colorFirst"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        />
+</LinearLayout>
